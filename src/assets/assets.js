@@ -74,7 +74,7 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Food-Delivery App",
+    title: "Food-Delivery Website",
     description: "A fully responsive food delivery web that allows users to view menus, add to cart and place orders seamlessly..",
     image: project1,
     tech: ["React", "CSS"], 
