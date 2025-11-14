@@ -102,8 +102,8 @@ export const projects = [
     description: "A personal portfolio to showcase projects, skills, myself and contact me.",
     image: project4,
     tech: ["React", "Tailwind CSS", "Framer Motion"],
-    code: "#",
-    demo: "#"
+    code: "https://github.com/abhishekjadhav0505/Portfolio02",
+    demo: "https://portfolio-web0123.netlify.app"
   }
 ];
 
