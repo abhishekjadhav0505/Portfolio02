@@ -103,7 +103,7 @@ export const projects = [
     image: project4,
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     code: "https://github.com/abhishekjadhav0505/Portfolio02",
-    demo: "https://portfolio-web0123.netlify.app"
+    demo: "https://portfolio02-nine.vercel.app/"
   }
 ];
 
