@@ -79,7 +79,7 @@ export const projects = [
     image: project1,
     tech: ["React", "CSS"], 
     code: "https://github.com/abhishekjadhav0505/Food-Delivery02",
-    demo: "https://food-delivery0123.netlify.app"
+    demo: "https://food-delivery02.vercel.app/"
   },
   {
     title: "Real-Estate Website",
@@ -87,7 +87,7 @@ export const projects = [
     image: project2,
     tech: ["React","Tailwind-CSS","Framer-Motion"],
     code: "https://github.com/abhishekjadhav0505/Real-estate01",
-    demo: "https://real-estate0123.netlify.app"
+    demo: "https://real-estate01-gold.vercel.app/"
   },
   {
     title: "Interior-Designing Website",
@@ -95,7 +95,7 @@ export const projects = [
     image: project3,
     tech: ["React","Tailwind-CSS"],
     code: "https://github.com/abhishekjadhav0505/Interior-Designing01",
-    demo: "https://interior-designing0123.netlify.app"
+    demo: "https://interior-designing01.vercel.app/"
   },
   {
     title: "Portfolio Website",
