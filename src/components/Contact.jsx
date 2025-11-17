@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import { FaEnvelope, FaGithub,  FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
+import { FaEnvelope, FaGithub,  FaLinkedinIn,  FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa6'
 
 const Contact = () => {
   return (
@@ -87,9 +88,13 @@ const Contact = () => {
 
                      <div className='pt-4'>
                         <h3 className='text-lg font-semibold mb-4'>Follow Me</h3>
-                        <div>
-                            <a href="https://github.com/abhishekjadhav0505" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300'>
+                        <div className='flex gap-4'>
+                            <a href="https://github.com/abhishekjadhav0505" target="_blank" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300'>
                                 <FaGithub/>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/abhishek-jadhav-5bb1a02a4/?trk=opento_sprofile_details" target="_blank" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300'>
+                                <FaLinkedin/>
                             </a>
                                                         
                         </div>

@@ -3,14 +3,15 @@ import { SiFuturelearn } from "react-icons/si";
 
 
 import profile from '../assets/profile.jpg';
+import profile2 from '../assets/profile2.jpg';
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
-import project4 from '../assets/project4.png';
 
 
 export const assets = {
     profile,
+    profile2
 }
 
 export const aboutInfo = [
@@ -90,17 +91,9 @@ export const projects = [
     demo: "https://real-estate01-gold.vercel.app/"
   },
   {
-    title: "Interior-Designing Website",
-    description: "A modern interior design website showcasing elegant layouts, design inspirations, and creativity.",
-    image: project3,
-    tech: ["React","Tailwind-CSS"],
-    code: "https://github.com/abhishekjadhav0505/Interior-Designing01",
-    demo: "https://interior-designing01.vercel.app/"
-  },
-  {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, myself and contact me.",
-    image: project4,
+    image: project3,
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     code: "https://github.com/abhishekjadhav0505/Portfolio02",
     demo: "https://portfolio02-nine.vercel.app/"

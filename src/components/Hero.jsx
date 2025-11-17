@@ -42,7 +42,7 @@ const Hero = () => {
                         ease:"easeInOut"
                     }}
                     className='rounded-full w-64 h-64 md:w-80 md:h-80 object-cover '
-                    src={assets.profile} alt="profile" />
+                    src={assets.profile2} alt="profile" />
 
                 </div>
 
