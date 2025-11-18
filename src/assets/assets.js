@@ -3,7 +3,6 @@ import { SiFuturelearn } from "react-icons/si";
 
 
 import profile from '../assets/profile.jpg';
-import profile2 from '../assets/profile2.jpg';
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
@@ -11,7 +10,7 @@ import project3 from '../assets/project3.png';
 
 export const assets = {
     profile,
-    profile2
+    
 }
 
 export const aboutInfo = [

@@ -1,6 +1,6 @@
 import React from 'react'
 import {easeOut, motion} from 'framer-motion'
-import {assets} from '../assets/assets'
+import { assets } from '../assets/assets'
 
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
                         ease:"easeInOut"
                     }}
                     className='rounded-full w-64 h-64 md:w-80 md:h-80 object-cover '
-                    src={assets.profile2} alt="profile" />
+                    src={assets.profile} alt="profile" />
 
                 </div>
 
