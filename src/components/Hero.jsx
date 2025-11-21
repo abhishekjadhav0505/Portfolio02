@@ -1,5 +1,5 @@
 import React from 'react'
-import {easeOut, motion} from 'framer-motion'
+import { motion} from 'framer-motion'
 import { assets } from '../assets/assets'
 
 const Hero = () => {
@@ -7,19 +7,19 @@ const Hero = () => {
     <motion.div
     initial={{opacity:0,y:50}}
     whileInView={{opacity:1,y:0}}
-    transition={{duration:0.6,ease:'easeOut'}}
+    transition={{duration:0.6}}
     viewport={{once:true}}
     id='home'
     className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a]'>
     <div className='container mx-auto px-6 flex flex-col md:flex-row items-center'>
-            {/*left side content */}
+            
         <div className='md:w-1/2 mb-10 md:mb-0'>
             <h1 className='text-4xl md:text-6xl font-bold mb-4'>
                 Hi,I'm <span className='text-purple
                 
                 '>Abhishek Jadhav</span> 
             </h1>
-            <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>Frontend Developer</h2>
+            <h2 className='text-2xl md:text-4xl font-semibold mb-6 '>Frontend Developer</h2>
             <p className='text-lg text-gray-300 mb-8'>I create stunning web experiences with modern technologies and innovative design.</p>
 
             <div className='flex space-x-4'>
@@ -29,10 +29,10 @@ const Hero = () => {
 
             </div>
 
-           {/* right side content*/}
+           
          <div className='md:w-1/2 flex justify-center'>
             <div className='relative w-64 md:w-80 md:h-80'>
-                <div className='absolute insert-0 rounded-full bg-gradient-to-r from-purple to-pink animate-pluse-slow opacity-70'>
+                <div className='absolute  rounded-full bg-gradient-to-r from-purple to-pink animate-pluse-slow '>
                     <motion.img
                     animate={{y:[0, -20, 0]}}
                     transition={{

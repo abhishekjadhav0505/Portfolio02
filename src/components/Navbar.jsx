@@ -60,25 +60,25 @@ const Navbar = () => {
 
         {
             showMenu && (
-                <div className='md:hidden mt-4 bg-dark-300 h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center'>
-                    <a onClick={()=>setShowMenu(!showMenu)} href="#home " className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <div className='md:hidden mt-4 bg-dark-300 h-screen rounded-lg flex flex-col space-y-4 text-center justify-center'>
+                    <a onClick={()=>setShowMenu(!showMenu)} href="#home " className=' text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Home</span>
                     
                 </a>
-                <a onClick={()=>setShowMenu(!showMenu)} href="#about " className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <a onClick={()=>setShowMenu(!showMenu)} href="#about " className=' text-white/80 transition duration-300 hover:text-purple group'>
                     <span>About</span>
                     
                 </a>
-                <a onClick={()=>setShowMenu(!showMenu)} href="#skills " className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <a onClick={()=>setShowMenu(!showMenu)} href="#skills " className=' text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Skills</span>
                    
                 </a>
-                <a onClick={()=>setShowMenu(!showMenu)} href="#projects " className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <a onClick={()=>setShowMenu(!showMenu)} href="#projects " className='text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Projects</span>
                    
                 </a>
                 <a onClick={()=>setShowMenu(!showMenu)}
-                 href="#contact " className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                 href="#contact " className='text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Contact</span>
                    
                 </a>

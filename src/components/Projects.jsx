@@ -12,7 +12,7 @@ const Projects = () => {
      viewport={{once:false,amount:0.2}}
      id='projects'
      className='py-20 bg-dark-200 '>
-        <div className='container mx-auto px-6'>
+        <div className='container px-6'>
             <h2 className='text-3xl font-bold text-center mb-4'>My
              <span className='text-purple'>Projects</span>
             </h2>

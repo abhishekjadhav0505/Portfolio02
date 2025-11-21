@@ -48,25 +48,25 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Tailwind CSS','Bootstrap','React-Bootstrsap','Framer-motion']
+    tags: ['React.js','Redux-Toolkit', 'Tailwind CSS','Bootstrap']
   },
   {
     title: 'Backend Development',
     icon: FaServer,
     description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express']
+    tags: ['Node.js', 'Express.js']
   },
   {
     title: 'Database Management',
     icon: FaDatabase,
     description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB']
+    tags: ['MongoDB','Mongoose']
   },
   {
-    title: 'Tools & Technologies',
+    title: 'Softwares and Tools',
     icon: FaTools,
     description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub','Figma' ]
+    tags: ['VS Code ','Git & GitHub','Postman','Figma' ]
   }
 ];
 
@@ -77,7 +77,7 @@ export const projects = [
     title: "Food-Delivery Website",
     description: "A fully responsive food delivery web that allows users to view menus, add to cart and place orders seamlessly..",
     image: project1,
-    tech: ["React", "CSS"], 
+    tech: ["React.js", "CSS"], 
     code: "https://github.com/abhishekjadhav0505/Food-Delivery02",
     demo: "https://food-delivery02.vercel.app/"
   },
@@ -85,7 +85,7 @@ export const projects = [
     title: "Real-Estate Website",
     description: "A responsive real estate website designed to explore property listings with ease.",
     image: project2,
-    tech: ["React","Tailwind-CSS","Framer-Motion"],
+    tech: ["React.js","Tailwind-CSS","Framer-Motion"],
     code: "https://github.com/abhishekjadhav0505/Real-estate01",
     demo: "https://real-estate01-gold.vercel.app/"
   },
@@ -93,7 +93,7 @@ export const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, myself and contact me.",
     image: project3,
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    tech: ["React.js", "Tailwind CSS", "Framer Motion"],
     code: "https://github.com/abhishekjadhav0505/Portfolio02",
     demo: "https://portfolio02-murex.vercel.app/"
   }
